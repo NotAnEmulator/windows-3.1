@@ -3,15 +3,21 @@
   <head>
     <title>404 Not Found</title>
     <style>
-      .resizer {
+      @font-face {
+        font-family: "WindowsBold";
+        src: url("./assets/fonts/WindowsBold.ttf");
+      }
+      
+      .text {
         width: 100px;
         height: 100px;
-        background: trabsparent;
+        background: transparent;
       }
 
       body {
        background: blue;
        color: white;
+       font-family: WindowsBold;
        height: 100vh;
        margin: 0;
        display: grid;
@@ -20,6 +26,8 @@
     </style>
   </head>
   <body>
-    <div class="resizer"></div>
+    <div class="text">
+      
+    </div>
   </body>
 </html>
